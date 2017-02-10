@@ -1,15 +1,14 @@
 <?php include("header.php") ?>
 <br />
-
-<div class="container top">
+<section>
+<div class="container">
 <div class="row">
 <div class="col-md-12">
-<section style="padding-left: 100; padding-right: 100">
-<div id="carouselGame" class="carousel slide" data-ride="carousel" >
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
@@ -31,10 +30,10 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
+</div>
+</div>
 </section>
-</div>
-</div>
-
 
 
 <br />
@@ -45,13 +44,13 @@
 <hr />
 <div class="row">
     <div class="col-sm-12">
-            <div class="card-group">
-     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <div class="card-group" id="product_form">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
            <div class="card" style="width: 20rem;">
-           <img class="card-img-top" src="img/0.jpg" alt="Card image cap">
+           <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
              <div class="card-block">
-              <h4 class="card-title">TOM CLANCY'S GHOST</h4>
-              <p class="card-text">Price: 1790 Baths</p>
+              <h4 class="card-title">TOM CLANCY'S GHOST RECON WILDLANDS</h4>
+              <p class="card-text">Price: 1,790 Baths</p>
               <input type="hidden" name="cmd" value="_cart" />
               <input type="hidden" name="add" value="1" />
               <input type="hidden" name="business" value="payment@nextlevel.com" />
@@ -65,56 +64,19 @@
              </div>
            </div>
          </form>
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    <div class="card" style="width: 20rem;">
-    <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Sniper Elite4</h4>
-      <p class="card-text">Price: 1890 Baths</p>
-        <input type="hidden" name="cmd" value="_cart" />
-          <input type="hidden" name="add" value="1" />
-          <input type="hidden" name="business" value="payment@nextlevel.com" />
-          <input type="hidden" name="item_name" value="Sniper Elite4" />
-          <input type="hidden" name="quantity" value="1" />
-          <input type="hidden" name="amount" value="1890.00" />
-          <input type="hidden" name="currency_code" value="THB" />
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="shipping" value="50">
-          <input type="submit" name="submit" value="Add to cart" class="btn btn-primary" />
-    </div>
-         
-          </div>
-  </form>
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    <div class="card" style="width: 20rem;">
-    <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Resident Evil7</h4>
-      <p class="card-text">Price: 1890 Baths</p>
-        <input type="hidden" name="cmd" value="_cart" />
-          <input type="hidden" name="add" value="1" />
-          <input type="hidden" name="business" value="payment@nextlevel.com" />
-          <input type="hidden" name="item_name" value="Resident Evil7" />
-          <input type="hidden" name="quantity" value="1" />
-          <input type="hidden" name="amount" value="1890.00" />
-          <input type="hidden" name="currency_code" value="THB" />
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="shipping" value="50">
-          <input type="submit" name="submit" value="Add to cart" class="btn btn-primary" />
-    </div>
-
-          </div>
-          </form>
           </div></div></div></div></div></section>
           </div>
 	 
 <?php include("footer.php") ?>
 
-<script type="text/javascript" src="js/product.js"></script> 
+<script type="text/javascript" src="js/productIndex.js"></script> 
  <script src="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js"></script>
  <script>
   paypal.minicart.render();
 
         
         </script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 

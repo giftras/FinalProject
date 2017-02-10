@@ -17,11 +17,6 @@ img {
 	padding-left: 50;
 }
 
-#slide-show{
-	padding: 60;
-	width: 800px;
-	height: 600px;
-}
 
 .login-border {
     border: 2px solid gray;
@@ -37,15 +32,6 @@ img {
 
 .feature-content img {
     margin-bottom: -8rem;
-}
-
-@media screen and ( min-width : 991px ) {
-    
-    .feature-content {
-        display: flex;
-        align-items: center;
-    }
-    
 }
 
 
